@@ -1,0 +1,262 @@
+html {
+    background-color: rgb(215, 246, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    background-image: url('http://placekitten.com/300/400');
+    background-size: cover;
+    max-width: 1280px;
+    box-shadow:  0 0 20px rgb(0, 71, 71);
+    min-height: 100vh;
+}
+
+main {
+    padding: 0 20px;
+}
+
+header {
+    background-image: url('http://placekitten.com/100/500');
+    background-position: center;
+    background-size: cover;
+    padding: 50px 25px;
+}
+
+.navigation {
+    position: sticky;
+    top: 0;
+    background-color: rgb(41, 41, 42);
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-menu li {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.main-menu li a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 30px 10px;
+}
+
+.main-menu li a:hover {
+    background-color: teal;
+}
+
+a.current-page {
+    background-color: rgb(88, 117, 117);
+}
+
+.main-container {
+    min-height: 100%;
+}
+
+.container {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: cornflowerblue dashed 3px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container a {
+    color: cornsilk;
+}
+
+.left-container {
+    margin-right: 30%;
+}
+
+.right-container {
+    margin-left: 30%;
+}
+
+.activity-container {
+    background-color: rgba(172, 226, 230, 0.8);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 40px;
+    color: sandybrown;
+}
+
+.page-title {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(187, 199, 236);
+}
+
+.title {
+    color: blue;
+    text-align: center;
+}
+
+.activity-subtitle {
+    color: darkslategray;
+}
+
+.activity-section {
+    color: rgb(21, 73, 47);
+}
+
+.cats-container {
+    text-align: center;
+    background-color: rgba(240, 240, 181, 0.8);
+}
+
+.links-container {
+    background-color: rgba(235, 219, 235, 0.8);
+}
+
+.image {
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.cats-image {
+    width: 40%;
+}
+
+footer {
+    background-color: rgb(41, 41, 42);
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+li {
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.container li {
+    margin: 5px 0;
+}
+
+.container li:hover {
+    transform: scaleY(1.2);
+    background-color: rgb(197, 241, 201);
+    font-weight: 900;
+}
+
+.tags-container {
+    background-color: rgba(3, 53, 53, 0.8);
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.flex-container {
+    margin: 20px 0;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container div {
+    height: 100px;
+    width: 100px;
+}
+
+.one {
+    background-color: blueviolet;
+}
+
+.two {
+    background-color: aqua;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.foto-galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.foto-galery img {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.sample {
+    padding-left: 30px;
+}
+
+.sample code {
+    border: rgb(95, 158, 160) dotted 1px;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 2px;
+    background-color: rgba(95, 158, 160, 0.322);
+}
+
+.up-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(100, 56, 2, 0.822);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    z-index: 10;
+    bottom: 25px;
+    right: 25px;
+}
+
+.million-button {
+    position: relative;
+    outline: none;
+    padding: 20px 40px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: black 3px 5px 10px;
+}
+
+.million-title {
+    text-align: center;
+    color: red;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    box-shadow: 0 0 25px #000;
+    border-radius: 5px;
+}
