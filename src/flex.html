@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Флексбокс</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <nav class="navigation">
+    <ul class="main-menu">
+      <li>
+        <a href="../index.html">Главная</a>
+      </li>
+      <li>
+        <a href="cats.html">Больше котиков</a>
+      </li>
+      <li>
+        <a href="tags.html">Основные теги</a>
+      </li>
+      <li>
+        <a class="current-page" href="./flex.html">Флексбокс</a>
+      </li>
+      <li>
+        <a href="./million.html">Миллион</a>
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <h1 class="main-title">Флексбокс - это сила! :)</h1>
+  </header>
+  <main>
+    <div class="tags-container container">
+      <h2>Стили для родительского элемента</h2>
+      <p><code>display: flex</code> - делает элемент флекс контейнером</p>
+      <p><code>flex-direction</code> - направление выравнивания потомков</p>
+      <p class="sample">значения:
+        <code>row</code>
+        <code>column</code>
+      </p>
+      <p><code>flex-wrap</code> - перенос потомков на новую строку</p>
+      <p class="sample">значения:
+        <code>wrap</code>
+        <code>nowrap</code>
+      </p>
+      <p><code>justify-content</code> - выравнивание потомков вдоль главной оси</p>
+      <p class="sample">значения:
+        <code>flex-start</code>
+        <code>flex-end</code>
+        <code>center</code>
+        <code>space-between</code>
+        <code>space-around</code>
+        <code>space-evenly</code>
+      </p>
+      <p><code>align-items</code> - выравнивание потомков вдоль второстепенной оси</p>
+      <p class="sample">значения:
+        <code>flex-start</code>
+        <code>flex-end</code>
+        <code>center</code>
+        <code>baseline</code>
+        <code>stretch</code>
+      </p>
+      <h2>Стили для потомков</h2>
+      <p><code>align-self</code> - выравнивание этого потомка вдоль второстепенной оси</p>
+      <p>Почитать больше о флексе:
+        <ul>
+          <li>
+            <a href="https://telegra.ph/Pozicionirovanie-v-CSS-i-Flexbox--obyasnenie-s-primerami-04-03">
+              Позиционирование в CSS и Flexbox
+            </a>
+
+          </li>
+          <li>
+            <a href="https://flexboxfroggy.com/#ru">
+              Игра для изучения Flexbox
+            </a>
+          </li>
+        </ul>
+
+      </p>
+    </div>
+    <div class="flex-container">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+  </main>
+  <footer>
+    eKids, EPAM Systems, 2021
+  </footer>
+</body>
+
+</html>
