@@ -8,91 +8,92 @@
     <title>Yaroslav</title>
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
-<body class="main-container">
-    <nav class="navigation">
-        <ul class="main-menu">
-            <li>
-                <a class="current-page" href="index.html">Главная</a>
-            </li>
-            <li>
-                <a href="src/cats.html">Больше котиков</a>
-            </li>
-            <li>
-                <a href="src/tags.html">Основные теги</a>
-            </li>
-            <li>
-                <a href="./src/flex.html">Флексбокс</a>
-            </li>
-            <li>
-                <a href="./src/million.html">Миллион</a>
-            </li>
-        </ul>
-    </nav>
-    <header id="top">
-        <h1 class="main-title">Добро пожаловать на мою страничку!</h1>
+<body id="top" class="main-container">
+<div class="overlay"></div>
+    <header>
+        <nav class="navigation">
+            <ul class="main-menu">
+                <li>
+                    <a class="current-page" href="index.html">Головна</a>
+                </li>
+                <li>
+                    <a href="src/cats.html">Ще котики</a>
+                </li>
+                <li>
+                    <a href="src/tags.html">Основні теги</a>
+                </li>
+                <li>
+                    <a href="./src/flex.html">Флексбокс</a>
+                </li>
+                <li>
+                    <a href="./src/million.html">Мільйон</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="main-title">Вітаю на моїй сторінці!</h1>
     </header>
+
     <main>
+        <div class="activity-container container">
+            <h2 class="title">Мої захоплення</h2>
 
-
-        <h2 class="page-title">Привет, меня зовут Ярослав :)</h2>
-        <div class="activity-container container left-container">
-            <h2 class="title">Мои увлечения</h2>
-
-            <h3 class="activity-subtitle">На открытом воздухе:</h3>
+            <h3 class="activity-subtitle">На вулиці:</h3>
 
             <ul class="activity-section">
-                <li>Бег</li>
-                <li>Спортивная ходьба</li>
-                <li>Плавание</li>
-                <li>Катание на велосипеде</li>
+                <li>Біг</li>
+                <li>Спортивна ходьба</li>
+                <li>Плавання</li>
+                <li>Катання на велосипеді</li>
             </ul>
 
-            <h3 class="activity-subtitle">Дома:</h3>
+            <h3 class="activity-subtitle">Вдома:</h3>
 
             <ul class="activity-section">
-                <li>Игра на гитаре</li>
-                <li>Чтение интересных книг</li>
-                <li>Прятки в шкафах</li>
-                <li>Уборка (НЕТ)</li>
+                <li>Гра на гітарі</li>
+                <li>Читання цікавих книг</li>
+                <li>Програмування</li>
+                <li>Прибирання (Ні)</li>
             </ul>
         </div>
 
         <div class="cats-container container right-container">
-            <h2 class="title">Мои кошачки</h2>
+            <h2 class="title">Мої котики</h2>
             <img class="cats-image image" src="http://placekitten.com/300/300" alt="Cat">
             <img class="cats-image image" src="http://placekitten.com/350/300" alt="Cat">
         </div>
 
-        <div class="container links-container left-container">
-            <h2 class="title">Полезные ссылки</h2>
+        <div class="container links-container">
+            <h2 class="title">Корисні посилання</h2>
             <ul>
                 <li>
-                    <a href="https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
-                        Дополнительный материал по второму уроку
+                    <a href="https://css.in.ua/html/tags">
+                        Довідник по HTML тегам
                     </a>
                 </li>
                 <li>
-                    <a href="https://htmlacademy.ru/">
-                        Html academy - онлайн тренажер html, css для начинающих
+                    <a href="https://ru.code-basics.com/languages/html">
+                        Чудовий курс з HTML - 'HTML для начинающих' (rus, eng)
                     </a>
                 </li>
                 <li>
-                    <a href="http://htmlbook.ru/html">
-                        Онлайн энциклопедия для изучения HTML, CSS
+                    <a href="https://flexboxfroggy.com/#uk">
+                        Гра для вивчення ФЛЕКСБОКС - Flexbox Froggy
                     </a>
                 </li>
             </ul>
         </div>
     </main>
+
     <a class="up-button" href="#top">
         <p>Up</p>
     </a>
+
     <footer>
-        eKids, EPAM Systems, 2021
+        eKids, EPAM Systems, 2022
     </footer>
+
     <script src="/src/scripts/main.js"></script>
 </body>
 
